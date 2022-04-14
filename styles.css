@@ -1,0 +1,178 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(/svg/svg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#firstname {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  
+  #lastname {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.5em;
+  }
+  
+  nav ul li {
+    font-family: "Oswald", sans-serif;
+  }
+
+  .picture {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #0066FF;
+    box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .legend {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  .legend #hi-p {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #66ff00;
+  }
+  .legend h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+  }
+  .legend #intro-p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .legend #job {
+    color: #ff8c00;
+  }
+  .legend #cntry {
+    color: #ff3366;
+  }
+  .legend .p {
+    font-size: 1rem;
+    color: white;
+  }
+  .exp {
+    position: relative;
+    align-self: baseline;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    color: #0066ff;
+    font-size: 7em;
+  }
+  .exp:after {
+    content: "2021";
+    position: absolute;
+    font-size: .3em;
+    top: 20%;
+    left: 4%;
+    z-index: -2;
+    color: rgba(0, 102, 255, 0.5);
+    font-weight: 700;
+  }
+  .exp:before {
+    content: "2022";
+    position: absolute;
+    font-size: .3em;
+    bottom: 23%;
+    left: 4%;
+    z-index: -2;
+    color: rgba(0, 102, 255, 0.5);
+    font-weight: 700;
+  }
+  .exp li {
+    position: relative;
+  }
+  .exp li:before {
+    content: "●";
+    margin-right: 10px;
+    font-size: 50px;
+  }
+  .exp li:after {
+    position: absolute;
+    left: 0;
+    content: "";
+    border-left: 2px solid #0066ff;
+    margin-left: 14px;
+    height: 295px;
+    z-index: -1;
+  }
+  .exp li:nth-child(2):after {
+    top: 0;
+  }
+  .exp li:first-of-type:after {
+    top: 70%;
+  }
+  .exp li:last-of-type:after {
+    top: -30%;
+    height: 100%;
+  }
+  .exp li .title-exp {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .exp li .p-exp {
+    position: absolute;
+    left: 45px;
+    font-size: 1rem;
+  }
+  .exp li .p-exp .type {
+    padding: 0 3px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .exp li .p-exp .lang {
+    color: white;
+  }
+  .side-text {
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: -10%;
+    padding: 0 10px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    font-weight: 200;
+    color: white;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .side-text:after {
+    content: "";
+    position: absolute;
+    margin-left: 100%;
+    width: 90%;
+    top: 25%;
+    left: 0;
+    border: 1px solid white;
+  }
+  .side-text:before {
+    content: "";
+    position: absolute;
+    margin-right: 100%;
+    width: 90%;
+    top: 25%;
+    right: 0;
+    border: 1px solid white;
+  }
+  .lang-logo {
+    font-size: 4rem;
+    color: #ffff;
+  }
