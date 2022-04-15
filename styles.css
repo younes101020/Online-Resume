@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,100;1,300;1,700&display=swap');
 
+section::-webkit-scrollbar {
+  width: .2rem;
+  border-radius: 100vw;
+}
+
+section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: #ffff;
+  border-radius: 100vw;
+}
+
 body {
     overflow-x: hidden !important;
     height: 100vh;
@@ -24,6 +38,10 @@ header {
   font-family: 'Prompt', sans-serif;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 nav {
   height: 100%;
   display: flex;
@@ -41,7 +59,7 @@ nav {
 
 .toggle-button {
   position: absolute;
-  top: 1rem;
+  top: .6rem;
   right: 1rem;
   display: none;
   z-index: 5000;
