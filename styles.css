@@ -248,7 +248,7 @@ a #logo_name {
     position: absolute;
     z-index: -100;
     top: 50%;
-    left: -10%;
+    left: -5%;
     padding: 0 10px;
     font-family: "Oswald", sans-serif;
     letter-spacing: 0.2em;
