@@ -228,13 +228,13 @@ a #logo_name {
   }
   .exp li .title-exp {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
   }
   .exp li .p-exp {
     position: absolute;
     left: 45px;
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .exp li .p-exp .type {
     padding: 0 3px;
