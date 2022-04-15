@@ -289,3 +289,7 @@ a #logo_name {
   .bg-bleuc {
     background-color: #06f;
   }
+  #contactForm {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+  }
