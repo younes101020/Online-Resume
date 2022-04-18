@@ -1,13 +1,13 @@
-section::-webkit-scrollbar {
-  width: .2rem;
+::-webkit-scrollbar {
+  width: .5rem;
   border-radius: 100vw;
 }
 
-section::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, .5);
 }
 
-section::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #ffff;
   border-radius: 100vw;
 }
@@ -322,7 +322,7 @@ a .logo_name {
     position: relative;
     color: #ffffff;
     font-style: initial;
-    background-image: url(img/lid.jpg);
+    background-image: url(img/card.png);
     background-size: cover;
     padding: 10rem 0 0;
     border-radius: 0.5rem;
