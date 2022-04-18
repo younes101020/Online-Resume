@@ -4,7 +4,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, .5);
+  background: #002233;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -301,6 +301,9 @@ a .logo_name {
     top: 25%;
     right: 0;
     border: 1px solid white;
+  }
+  #third-section {
+    overflow: hidden;
   }
   .lang-logo {
     font-size: 3rem;
