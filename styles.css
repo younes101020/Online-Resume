@@ -525,7 +525,7 @@ a .logo_name {
     padding: var(--padding);
     background: linear-gradient(
       hsl(0 0% 0% / 0),
-      #0f0f10 20%,
+      #0f0f10 50%,
       #0f0f10
     );
     font-family: "Oswald", sans-serif;
@@ -547,8 +547,9 @@ a .logo_name {
     background: #fff;
   }
   
-  .card-body {
+  .card-bodys {
     color: rgb(255, 255, 255 / 0.85);
+    padding: 0;
   }
   
   .button {
