@@ -34,6 +34,7 @@ header {
   width: 100vw;
   background-color: rgba(0, 0, 0, .5);
   font-family: 'Prompt', sans-serif;
+  font-style: italic;
 }
 
 section {
@@ -320,6 +321,7 @@ a .logo_name {
   }
   footer {
     font-family: "Prompt", sans-serif;
+    font-style: italic;
   }
   footer ul {
     list-style-type: none;
