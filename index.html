@@ -188,10 +188,12 @@
                       <div class="container py-4">
 
                         
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/younesfakallah60@gmail.com" method="POST">
 
                           
                           <div class="mb-3" data-aos="fade-right">
+                            <input type="hidden" name="_next" value="https://younesfakallah.vercel.app">
+                            <input type="hidden" name="_subject" value="Nouvel email">
                             <label class="form-label text-white" for="name">Name</label>
                             <input class="form-control opac" id="name" type="text" placeholder="John Doe" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
