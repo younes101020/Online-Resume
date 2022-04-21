@@ -576,6 +576,7 @@ a .logo_name {
   }
   .opac {
     background: rgba(0, 0, 0, 0.5) !important;
+    color: #ffff !important;
   }
   footer {
     font-family: "Prompt", sans-serif;
