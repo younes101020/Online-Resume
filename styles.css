@@ -327,7 +327,7 @@ a .logo_name {
     font-style: initial;
     background-image: linear-gradient(90deg, rgba(2,0,36,.4) 0%, rgba(9,9,121,.4) 36%, rgba(0,212,255,.4) 100%), url(img/card.png);
     background-size: cover;
-    padding: 10rem 0 0;
+    padding: 11.5rem 0 0;
     border-radius: 0.5rem;
     overflow: hidden;
   }
