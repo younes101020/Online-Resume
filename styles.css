@@ -526,11 +526,6 @@ a .logo_name {
     min-width: 100vw;
     --padding: 1.5rem;
     padding: var(--padding);
-    background: linear-gradient(
-      hsl(0 0% 0% / 0),
-      #0f0f10 50%,
-      #0f0f10
-    );
     font-family: "Oswald", sans-serif;
   }
   
