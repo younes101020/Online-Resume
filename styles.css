@@ -325,7 +325,7 @@ a .logo_name {
     position: relative;
     color: #ffffff;
     font-style: initial;
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(0,212,255,1) 100%), url(img/card.png);
+    background-image: linear-gradient(90deg, rgba(2,0,36,.4) 0%, rgba(9,9,121,.4) 36%, rgba(0,212,255,.4) 100%), url(img/card.png);
     background-size: cover;
     padding: 10rem 0 0;
     border-radius: 0.5rem;
@@ -386,7 +386,7 @@ a .logo_name {
   .card2 {
     position: relative;
     color: #ffffff;
-    background-image: url(img/card.png);
+    background-image: linear-gradient(90deg, rgba(2,0,36,.4) 0%, rgba(9,9,121,.4) 36%, rgba(0,212,255,.4) 100%), url(img/card.png);
     background-size: cover;
     padding: 10rem 0 0;
     border-radius: 0.5rem;
@@ -447,7 +447,7 @@ a .logo_name {
   .card3 {
     position: relative;
     color: #ffffff;
-    background-image: url(img/card3.png);
+    background-image: linear-gradient(90deg, rgba(2,0,36,.4) 0%, rgba(9,9,121,.4) 36%, rgba(0,212,255,.4) 100%), url(img/card3.png);
     background-size: cover;
     padding: 10rem 0 0;
     border-radius: 0.5rem;
