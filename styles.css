@@ -321,7 +321,7 @@ a .logo_name {
     text-align: center;
   }
   
-  .card {
+  .cards {
     position: relative;
     color: #ffffff;
     font-style: initial;
@@ -332,7 +332,7 @@ a .logo_name {
     overflow: hidden;
   }
   
-  .card::before {
+  .cards::before {
     font-family: FontAwesome;
     content: "\f13b";
     font-size: 1.3rem;
@@ -349,7 +349,7 @@ a .logo_name {
     clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
   }
   
-  .card::after {
+  .cards::after {
     font-family: FontAwesome;
     content: '\f38b';
     font-size: 1.3rem;
