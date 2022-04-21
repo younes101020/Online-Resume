@@ -188,21 +188,12 @@
                       <div class="container py-4">
 
                         
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formsubmit.co/younesfakallah60@gmail.com" method="POST">
-
-                          
-                          <div class="mb-3" data-aos="fade-right">
-                            <input type="hidden" name="_next" value="https://younesfakallah.vercel.app">
-                            <input type="hidden" name="_subject" value="Nouvel email">
-                            <label class="form-label text-white" for="name">Name</label>
-                            <input class="form-control opac" id="name" type="text" placeholder="John Doe" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-                          </div>
+                        <form id="contactForm" action="https://formsubmit.co/younesfakallah60@gmail.com" method="POST">
 
                           
                           <div class="mb-3" data-aos="fade-left">
                             <label class="form-label text-white" for="emailAddress">Email address</label>
-                            <input class="form-control opac" id="emailAddress" type="email" placeholder="johndoe@gmail.com" data-sb-validations="required, email" />
+                            <input class="form-control opac" id="emailAddress" type="email" name="email" placeholder="johndoe@gmail.com" required />
                             <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email address is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="emailAddress:email">The email address is not valid.</div>
                           </div>
@@ -210,7 +201,7 @@
                           
                           <div class="mb-3" data-aos="fade-right">
                             <label class="form-label text-white" for="message">Message</label>
-                            <textarea class="form-control opac" id="message" type="text" placeholder="Hello Younès, I would like to schedule an interview with you..." style="height: 10rem;" data-sb-validations="required"></textarea>
+                            <textarea class="form-control opac" id="message" type="text" name="name" placeholder="Hello Younès, I would like to schedule an interview with you..." style="height: 10rem;" required</textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                           </div>
 
