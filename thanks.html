@@ -12,6 +12,35 @@
     <title>Younès Fakallah - Thank you</title>
 </head>
 <body>
-    
+    <style>
+        section {
+            font-family: 'Prompt', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        section h1 {
+            font-size: 5rem;
+            font-weight: 700;
+            color: transparent;
+            background-image: linear-gradient(to left, #e66465, #9198e5);
+            -webkit-background-clip: text;
+            animation: animate 5s linear infinite;
+            -webkit-background-size: 500%;
+            background-size: 500%;
+        }
+        @keyframes animate {
+            0% {
+                background-position: 0 100%;
+            }
+            50% {
+                background-position: 100% 0;
+            }
+            100% {
+                background-position: 0 100%;
+            }
+        }
+    </style>
+    <section class="h-100 container d-flex flex-column justify-content-center align-items-center text-white">
+        <h1>Thank you !</h1>
+        <p>your message has been sent to me</p>
+    </section>
 </body>
 </html>
