@@ -38,7 +38,7 @@ header {
 }
 
 section {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 nav {
@@ -194,7 +194,11 @@ a .logo_name {
     font-size: 1rem;
     color: white;
   }
+  .exp-container {
+    height: 160%;
+  }
   .exp {
+    width: 100%;
     position: relative;
     align-self: baseline;
     font-family: "Oswald", sans-serif;
