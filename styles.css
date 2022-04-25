@@ -139,6 +139,8 @@ nav {
 }
 
 .logo {
+  height: 100%;
+  padding: .6rem 0 0 0;
   text-decoration: none;
 }
 
@@ -323,6 +325,9 @@ a .logo_name {
     margin: auto;
     max-width: 50vw;
     text-align: center;
+  }
+  .padding-center {
+    padding: 10rem 0 0 0;
   }
   
   .cards {
