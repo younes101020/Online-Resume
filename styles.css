@@ -487,6 +487,21 @@ a .logo_name {
   .button:focus {
     opacity: .5;
   }
+
+  .modal-dialog {
+    pointer-events: auto !important;
+  }
+
+  .modal-footer {
+    border-top: none !important;  
+  }
+
+  .close-btn {
+    background-color: #FF0000 !important;
+    color: #ffff !important;
+    border: none !important;
+  }
+
   #contactForm {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
