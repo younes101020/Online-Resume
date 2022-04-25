@@ -198,7 +198,6 @@ a .logo_name {
     height: 160%;
   }
   .exp {
-    width: 100%;
     position: relative;
     align-self: baseline;
     font-family: "Oswald", sans-serif;
@@ -260,6 +259,7 @@ a .logo_name {
   }
   .exp li .p-exp {
     position: absolute;
+    width: 100%;
     left: 45px;
     font-size: .9rem;
   }
