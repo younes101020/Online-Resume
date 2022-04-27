@@ -158,7 +158,6 @@ a .logo_name {
 
 .switch-lang {
   position: fixed;
-  border-radius: 2rem 0 0 2rem;
   z-index: 1000;
   right: 0;
   top: 50%;
@@ -166,15 +165,18 @@ a .logo_name {
 }
 
 .usa {
-  border-radius: 1rem 0 0 0;
   width: 2rem;
-  height: 2rem;
 }
 
 .fra {
-  border-radius: 0 0 0 1rem;
   width: 2rem;
-  height: 2rem;
+}
+.usa:hover {
+  opacity: .5;
+}
+
+.fra:hover {
+  opacity: .5;
 }
 
   .picture {
