@@ -27,19 +27,24 @@
                       <span class="bar"></span>
                     </a>
                     <ul id="navbar" class="nav-bar">
-                      <li class="item p-3"><a href="#first-section" class="hover-animation">Who i am</a></li>
-                      <li class="item p-3"><a href="#two-section" class="hover-animation">Experiences</a></li>
-                      <li class="item p-3"><a href="#third-section" class="hover-animation">Skills</a></li>
-                      <li class="item p-3"><a href="#projects-section" class="hover-animation">Projects</a></li>
-                      <li class="item p-3"><a href="#firth-section" class="hover-animation">Contact</a></li>
+                      <li class="item p-2"><a href="#first-section" id="quilang" class="hover-animation">Who i am</a></li>
+                      <li class="item p-2"><a href="#two-section" class="hover-animation">Experiences</a></li>
+                      <li class="item p-2"><a href="#third-section" class="hover-animation skillslang">Skills</a></li>
+                      <li class="item p-2"><a href="#projects-section" id="projetlang" class="hover-animation">Projects</a></li>
+                      <li class="item p-2"><a href="#firth-section" class="hover-animation">Contact</a></li>
                     </ul>
                   </nav>
               </header>
-              </header>
+
+              <!--Changement de langue-->
+              <div class="d-flex flex-column p-2 switch-lang">
+                    <a href="#en" id="en"><img class="usa m-1" src="svg/usa.svg" alt="lang-usa"></a>
+                    <a href="#fr" id="fr"><img class="fra m-1" src="svg/fr.svg" alt="lang-france"></a>
+              </div>
               
              <section class="h-100 container" id="first-section">
               <div class="side-text d-none d-md-block">
-                <p>Younès Fakallah - Online resume - 2022</p>
+                <p>Younès Fakallah - <span id="verticalline">Online resume</span> - 2022</p>
               </div>
                 <div class="h-100 row d-md-flex justify-content-md-between align-items-md-center">
                         <div class="d-none d-sm-none d-lg-block col-md-3">
@@ -51,8 +56,8 @@
                             <div class="legend" data-aos="fade-left">
                                 <p><span id="hi-p">Hello i'm</span></p>
                             <h1>Younès Fakallah</h1>
-                                <p><span id="intro-p">A <span id="job">web developer</span> from <span id="cntry">France</span></span></p>
-                                <p class="p">I'm creative front-end web developer based in Clermont-de-l'Oise, and I'm very passionate and dedicated to my work.</p>
+                                <p><span id="intro-p"><span id="un">A</span> <span id="job">web developer</span> <span id="de">from</span> <span id="cntry">France</span></span></p>
+                                <p id="presentation" class="presentation">I have 21 years old and i'm creative front-end web developer based in Clermont-de-l'Oise, and I'm very passionate and dedicated to my work.</p>
                             </div>
                         </div>
                 </div>
@@ -62,10 +67,10 @@
                   <div class="h-100 row">
                         <div class="col-12 d-flex justify-content-center align-items-md-center">
                             <ul class="exp" data-aos="fade-right">
-                              <li><span class="title-exp">OpenClassroom training <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type">certificate</span> <span class="type">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-react"></i></span></span></li>
-                              <li><span class="title-exp">freeCodeCamp training <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type">certificate</span> <span class="type">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> </span></span></li>
-                              <li><span class="title-exp">Udemy training <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> </span></span></li>
-                              <li><span class="title-exp">La Manu training <i class="fa-solid fa-graduation-cap"></i></i></span></br><span class="p-exp"><span class="type">professional degree</span><span class="lang"> - <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-wordpress"></i> <i class="fa-brands fa-php"></i> <i class="fa-brands fa-symfony"></i> </span></span></li>
+                              <li><span class="title-exp"><span id="ocforma">OpenClassroom training</span> <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type certbadge">certificate</span> <span class="type autobadge">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-react"></i></span></span></li>
+                              <li><span class="title-exp"><span id="freeforma">freeCodeCamp training</span> <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type certbadge">certificate</span> <span class="type autobadge">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> </span></span></li>
+                              <li><span class="title-exp"><span id="udeforma">Udemy training</span> <i class="fa-solid fa-graduation-cap"></i></span></br><span class="p-exp"><span class="type autobadge">self-taught</span><span class="lang"> - <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> </span></span></li>
+                              <li><span class="title-exp"><span id="manuforma">La Manu training</span> <i class="fa-solid fa-graduation-cap"></i></i></span></br><span class="p-exp"><span id="titlebadge" class="type">professional degree</span><span class="lang"> - <i class="fa-brands fa-bootstrap"></i> <i class="fa-brands fa-wordpress"></i> <i class="fa-brands fa-php"></i> <i class="fa-brands fa-symfony"></i> </span></span></li>
                             </ul>
                         </div>
                   </div>
@@ -141,8 +146,8 @@
                         <span id="sen">
                           <div class="card-content">
                             <h2 class="card-title">Lost In Dev</h2>
-                            <p class="card-bodys">Application who allows the connection<br> between web developers apprentice<br> to create mutual aid.</p>
-                            <a type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Overview</a>
+                            <p id="lidpresent" class="card-bodys">Application who allows the connection<br> between web developers apprentice<br> to create mutual aid.</p>
+                            <a id="viewproject" type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Overview</a>
                           </div>
                         </span>
                       </div>
@@ -165,8 +170,8 @@
                         <span id="reacts">
                         <div class="card-content">
                           <h2 class="card-title">La Maison Jungle</h2>
-                          <p class="card-bodys">User interface of an online store,<br> you can add, remove, delete and save your cart.</p>
-                          <a type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Overview</a>
+                          <p id="lmjpresent" class="card-bodys">User interface of an online store,<br> you can add, remove, delete and save your cart.</p>
+                          <a id="viewproject" type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">Overview</a>
                         </div>
                         </span>
                       </div>
@@ -196,24 +201,24 @@
                           <div class="mb-3" data-aos="fade-right">
                             <input type="hidden" name="_next" value="https://younesfakallah.vercel.app/thanks.html">
                             <input type="hidden" name="_subject" value="Nouvel email">
-                            <label class="form-label text-white" for="name">Name</label>
+                            <label id="namelabel" class="form-label text-white" for="name">Name</label>
                             <input class="form-control opac" id="name" type="text" placeholder="John Doe" data-sb-validations="required" required />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                            <div id="namerequired" class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
                           </div>
 
                           
                           <div class="mb-3" data-aos="fade-left">
-                            <label class="form-label text-white" for="emailAddress">Email address</label>
+                            <label id="maillabel" class="form-label text-white" for="emailAddress">Email address</label>
                             <input class="form-control opac" id="emailAddress" type="email" name="email" placeholder="johndoe@gmail.com" data-sb-validations="required, email" required />
-                            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email address is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">The email address is not valid.</div>
+                            <div id="mailrequired" class="invalid-feedback" data-sb-feedback="emailAddress:required">Email address is required.</div>
+                            <div id="invalidmail" class="invalid-feedback" data-sb-feedback="emailAddress:email">The email address is not valid.</div>
                           </div>
 
                           
                           <div class="mb-3" data-aos="fade-right">
                             <label class="form-label text-white" for="message">Message</label>
                             <textarea class="form-control opac" id="message" type="text" name="message" required placeholder="Hello Younès, I would like to schedule an interview with you..." style="height: 10rem;" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                            <div id="msgrequired" class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                           </div>
 
                           
@@ -223,7 +228,7 @@
 
                           
                           <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">Your message could not be sent !</div>
+                            <div id="msgnotsent" class="text-center text-danger mb-3">Your message could not be sent !</div>
                           </div>
 
                           
@@ -250,7 +255,7 @@
                       <ul class="row py-2 d-flex justify-content-center text-center">
                           <li class="col-3 p-0 m-1 mx-md-0"><a href="#first-section" class="p-1">Presentation</a></li>
                           <li class="col-3 p-0 m-1 mx-md-0"><a href="#two-section" class="p-1">Experiences</a></li>
-                          <li class="col-3 p-0 m-1 mx-md-0"><a href="#third-section" class="p-1">Skills</a></li>
+                          <li class="col-3 p-0 m-1 mx-md-0"><a href="#third-section" class="p-1 skillslang">Skills</a></li>
                           <li class="col-3 p-0 m-1 mx-md-0"><a href="#firth-section" class="p-1">Contact</a></li>
                       </ul>
 
