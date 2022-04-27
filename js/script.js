@@ -21,6 +21,11 @@ const autoBadge = document.getElementsByClassName('autobadge')
 const titleBadge = document.getElementById('titlebadge')
 const lidPresent = document.getElementById('lidpresent')
 const lmjPresent = document.getElementById('lmjpresent')
+const viewProject = document.getElementsByClassName('viewproject')
+const nameLabel = document.getElementById('namelabel')
+const mailLabel = document.getElementById('maillabel')
+const msgLabel = document.getElementById('message')
+const submitBtn = document.getElementById('submitButton')
 
 
 const language = {
@@ -42,7 +47,12 @@ const language = {
         allAuto: "self-taught",
         lastBadge: "professional degree",
         firstBox: "Application who allows the connection<br> between web developers apprentice<br> to create mutual aid.",
-        twoBox: "User interface of an online store,<br> you can add, remove, delete and save your cart." 
+        twoBox: "User interface of an online store,<br> you can add, remove, delete and save your cart.",
+        viewBtn: "Overview",
+        nameLbl: "Name",
+        mailLab: "Email address",
+        msgLab: "Hello Younès, I would like to schedule an interview with you...",
+        subMit: "Send"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -62,7 +72,12 @@ const language = {
         allAuto: "autodidacte",
         lastBadge: "titre professionnel",
         firstBox: "Application qui met en relation<br> des apprentis développeurs web<br> pour créer de l'entraide",
-        twoBox: "Vous pouvez ajouter, enlever,<br> supprimer et sauvegarder votre panier."
+        twoBox: "Vous pouvez ajouter, enlever,<br> supprimer et sauvegarder votre panier.",
+        viewBtn: "Aperçu",
+        nameLbl: "Nom",
+        mailLab: "Adresse e-mail",
+        msgLab: "Bonjour Younès, je souhaiterais organiser un entretien avec vous...",
+        subMit: "Envoyer"
     }
 };
 
@@ -93,6 +108,13 @@ frenchLang.addEventListener('click', function(event) {
     titleBadge.textContent = language.fr.lastBadge;
     lidPresent.innerHTML = language.fr.firstBox;
     lmjPresent.innerHTML = language.fr.twoBox;
+    for(let i = 0; i < viewProject.length; i++) {
+        viewProject[i].textContent = language.fr.viewBtn;
+    }
+    nameLabel.textContent = language.fr.nameLbl;
+    mailLabel.textContent = language.fr.mailLab;
+    msgLabel.placeholder = language.fr.msgLab;
+    submitBtn.textContent = language.fr.subMit;
 });
 
 
@@ -123,6 +145,13 @@ engLang.addEventListener('click', function(event) {
     titleBadge.textContent = language.en.lastBadge;
     lidPresent.innerHTML = language.en.firstBox;
     lmjPresent.innerHTML = language.en.twoBox;
+    for(let i = 0; i < viewProject.length; i++) {
+        viewProject[i].textContent = language.en.viewBtn;
+    }
+    nameLabel.textContent = language.en.nameLbl;
+    mailLabel.textContent = language.en.mailLab;
+    msgLabel.placeholder = language.en.msgLab;
+    submitBtn.textContent = language.en.subMit;
 });
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
