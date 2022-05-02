@@ -13,6 +13,7 @@ const jobText = document.getElementById('job')
 const deText = document.getElementById('de')
 const longText = document.getElementById('presentation')
 const ocForma = document.getElementById('ocforma')
+const opcForma = document.getElementById('opcforma')
 const freeForma = document.getElementById('freeforma')
 const udeForma = document.getElementById('udeforma')
 const manuForma = document.getElementById('manuforma')
@@ -41,6 +42,7 @@ const language = {
         fourPresent: "from",
         lastPresent: "I am looking for an internship near Oise or in Île de France from September 30 to October 7, 2022.",
         firstexpTitle: "Network and computer technician",
+        firstopcexpTitle: "OpenClassroom training",
         twoexpTitle: "freeCodeCamp training",
         thirdexpTitle: "Udemy training",
         fourexpTitle: "La Manu training",
@@ -67,6 +69,7 @@ const language = {
         fourPresent: "de",
         lastPresent: "Je suis à la recherche d’un stage à proximité de l’Oise ou en Île de France du 30 septembre au 7 octobre 2022.",
         firstexpTitle: "Technicien supérieur systèmes et réseaux",
+        firstopcexpTitle: "Formation OpenClassroom",
         twoexpTitle: "Formation freeCodeCamp",
         thirdexpTitle: "Formation Udemy",
         fourexpTitle: "Formation La Manu",
@@ -121,6 +124,7 @@ frenchLang.addEventListener('click', function(event) {
     msgLabel.placeholder = language.fr.msgLab;
     submitBtn.textContent = language.fr.subMit;
     stageBadge.textContent = language.fr.stage;
+    opcForma.textContent = language.fr.firstopcexpTitle;
 });
 
 
@@ -161,6 +165,7 @@ engLang.addEventListener('click', function(event) {
     msgLabel.placeholder = language.en.msgLab;
     submitBtn.textContent = language.en.subMit;
     stageBadge.textContent = language.en.stage;
+    opcForma.textContent = language.en.firstopcexpTitle;
 });
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
