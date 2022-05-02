@@ -18,7 +18,7 @@ const udeForma = document.getElementById('udeforma')
 const manuForma = document.getElementById('manuforma')
 const certBadge = document.getElementsByClassName('certbadge')
 const autoBadge = document.getElementsByClassName('autobadge')
-const titleBadge = document.getElementById('titlebadge')
+const titleBadge = document.getElementsByClassName('titlebadge')
 const lidPresent = document.getElementById('lidpresent')
 const lmjPresent = document.getElementById('lmjpresent')
 const viewProject = document.getElementsByClassName('viewbtn')
@@ -26,6 +26,7 @@ const nameLabel = document.getElementById('namelabel')
 const mailLabel = document.getElementById('maillabel')
 const msgLabel = document.getElementById('message')
 const submitBtn = document.getElementById('submitButton')
+const stageBadge = document.getElementById('internship')
 
 
 const language = {
@@ -39,7 +40,7 @@ const language = {
         thirdPresent: "web developer",
         fourPresent: "from",
         lastPresent: "I have 21 years old and i'm creative front-end web developer based in Clermont-de-l'Oise, and I'm very passionate and dedicated to my work.",
-        firstexpTitle: "OpenClassroom training",
+        firstexpTitle: "Network and computer technician",
         twoexpTitle: "freeCodeCamp training",
         thirdexpTitle: "Udemy training",
         fourexpTitle: "La Manu training",
@@ -52,7 +53,8 @@ const language = {
         nameLbl: "Name",
         mailLab: "Email address",
         msgLab: "Hello Younès, I would like to schedule an interview with you...",
-        subMit: "Send"
+        subMit: "Send",
+        stage: "internship"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -64,7 +66,7 @@ const language = {
         thirdPresent: "développeur web",
         fourPresent: "de",
         lastPresent: "Je suis un développeur web front-end de 21 ans basé à Clermont-de-l'Oise, je suis également quelqu'un de très créatif et passionné par mon travail.",
-        firstexpTitle: "Formation OpenClassroom",
+        firstexpTitle: "Technicien supérieur systèmes et réseaux",
         twoexpTitle: "Formation freeCodeCamp",
         thirdexpTitle: "Formation Udemy",
         fourexpTitle: "Formation La Manu",
@@ -77,7 +79,8 @@ const language = {
         nameLbl: "Nom",
         mailLab: "Adresse e-mail",
         msgLab: "Bonjour Younès, je souhaiterais organiser un entretien avec vous...",
-        subMit: "Envoyer"
+        subMit: "Envoyer",
+        stage: "stage"
     }
 };
 
@@ -105,7 +108,9 @@ frenchLang.addEventListener('click', function(event) {
     for(let i = 0; i < autoBadge.length; i++) {
         autoBadge[i].textContent = language.fr.allAuto;
     }
-    titleBadge.textContent = language.fr.lastBadge;
+    for(let i = 0; i < titleBadge.length; i++) {
+        titleBadge[i].textContent = language.fr.lastBadge;
+    }
     lidPresent.innerHTML = language.fr.firstBox;
     lmjPresent.innerHTML = language.fr.twoBox;
     for(let i = 0; i < viewProject.length; i++) {
@@ -115,6 +120,7 @@ frenchLang.addEventListener('click', function(event) {
     mailLabel.textContent = language.fr.mailLab;
     msgLabel.placeholder = language.fr.msgLab;
     submitBtn.textContent = language.fr.subMit;
+    stageBadge.textContent = language.fr.stage;
 });
 
 
@@ -142,7 +148,9 @@ engLang.addEventListener('click', function(event) {
     for(let i = 0; i < autoBadge.length; i++) {
         autoBadge[i].textContent = language.en.allAuto;
     }
-    titleBadge.textContent = language.en.lastBadge;
+    for(let i = 0; i < titleBadge.length; i++) {
+        titleBadge[i].textContent = language.en.lastBadge;
+    }
     lidPresent.innerHTML = language.en.firstBox;
     lmjPresent.innerHTML = language.en.twoBox;
     for(let i = 0; i < viewProject.length; i++) {
@@ -152,6 +160,7 @@ engLang.addEventListener('click', function(event) {
     mailLabel.textContent = language.en.mailLab;
     msgLabel.placeholder = language.en.msgLab;
     submitBtn.textContent = language.en.subMit;
+    stageBadge.textContent = language.en.stage;
 });
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]

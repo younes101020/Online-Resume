@@ -218,9 +218,10 @@ a .logo_name {
     color: white;
   }
   .exp-container {
-    height: 146%;
+    height: 80rem;
   }
   .exp {
+    width: 150%;
     position: relative;
     align-self: baseline;
     font-family: "Oswald", sans-serif;
@@ -229,20 +230,27 @@ a .logo_name {
     font-size: 7em;
   }
   .exp:after {
-    content: "2021";
+    content: "2020";
     position: absolute;
     font-size: .3em;
-    top: 20%;
+    top: 30%;
     left: 4%;
     z-index: -2;
     color: rgba(0, 102, 255, 0.5);
     font-weight: 700;
   }
+  .exp2:before {
+    display: none !important;
+  }
+  .exp2:after {
+    top: 60% !important;
+    content: "2022" !important;
+  }
   .exp:before {
     content: "2022";
     position: absolute;
     font-size: .3em;
-    bottom: 23%;
+    bottom: 13%;
     left: 4%;
     z-index: -2;
     color: rgba(0, 102, 255, 0.5);
@@ -255,6 +263,15 @@ a .logo_name {
     content: "●";
     margin-right: 10px;
     font-size: 50px;
+  }
+  .exp #uniq-line:after {
+    position: absolute;
+    left: 0;
+    content: "";
+    border-left: 2px solid #0066ff;
+    margin-left: 14px;
+    height: 260px;
+    z-index: -1;
   }
   .exp li:after {
     position: absolute;
@@ -277,14 +294,14 @@ a .logo_name {
   }
   .exp li .title-exp {
     color: white;
-    font-size: 1rem;
+    font-size: .78rem;
     font-weight: 700;
   }
   .exp li .p-exp {
     position: absolute;
     width: 100%;
     left: 45px;
-    font-size: .9rem;
+    font-size: .78rem;
   }
   .exp li .p-exp .type {
     padding: 0 3px;
