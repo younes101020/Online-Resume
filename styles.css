@@ -26,7 +26,7 @@ body {
 header {
   position: fixed;
   z-index: 1;
-  height: 10rem;
+  height: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
