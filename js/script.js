@@ -12,7 +12,7 @@ const unText = document.getElementById('un')
 const jobText = document.getElementById('job')
 const deText = document.getElementById('de')
 const longText = document.getElementById('presentation')
-const ocForma = document.getElementById('ocforma')
+const ocForma = document.getElementsByClassName('ocforma')
 const opcForma = document.getElementById('opcforma')
 const freeForma = document.getElementById('freeforma')
 const udeForma = document.getElementById('udeforma')
@@ -101,7 +101,9 @@ frenchLang.addEventListener('click', function(event) {
     jobText.textContent = language.fr.thirdPresent;
     deText.textContent = language.fr.fourPresent;
     longText.textContent = language.fr.lastPresent;
-    ocForma.textContent = language.fr.firstexpTitle;
+    for(let i = 0; i < ocForma.length; i++) {
+        ocForma[i].textContent = language.fr.firstexpTitle;
+    }
     freeForma.textContent = language.fr.twoexpTitle;
     udeForma.textContent = language.fr.thirdexpTitle;
     manuForma.textContent = language.fr.fourexpTitle;
@@ -142,7 +144,9 @@ engLang.addEventListener('click', function(event) {
     jobText.textContent = language.en.thirdPresent;
     deText.textContent = language.en.fourPresent;
     longText.textContent = language.en.lastPresent;
-    ocForma.textContent = language.en.firstexpTitle;
+    for(let i = 0; i < ocForma.length; i++) {
+        ocForma[i].textContent = language.en.firstexpTitle;
+    }
     freeForma.textContent = language.en.twoexpTitle;
     udeForma.textContent = language.en.thirdexpTitle;
     manuForma.textContent = language.en.fourexpTitle;
