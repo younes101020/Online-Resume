@@ -239,10 +239,24 @@ a .logo_name {
     color: rgba(0, 102, 255, 0.5);
     font-weight: 700;
   }
+  .exp1:before {
+    display: none !important;
+  }
+  .exp1:after {
+    top: 60% !important;
+    content: "2020" !important;
+  }
   .exp2:before {
     display: none !important;
   }
   .exp2:after {
+    top: 60% !important;
+    content: "2021" !important;
+  }
+  .exp3:before {
+    display: none !important;
+  }
+  .exp3:after {
     top: 60% !important;
     content: "2022" !important;
   }
