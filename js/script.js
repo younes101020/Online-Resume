@@ -29,6 +29,17 @@ const msgLabel = document.getElementById('message')
 const submitBtn = document.getElementById('submitButton')
 const stageBadge = document.getElementById('internship')
 
+// Récupération de l'ID à afficher au scroll uniquement Cacher le boutton
+const showCv = document.getElementById('switchtocv')
+
+window.addEventListener('scroll', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (window.scrollY > 200) {
+        showCv.style.display = "block";
+    }
+})
+
 
 const language = {
     en: {
@@ -86,6 +97,12 @@ const language = {
         stage: "stage"
     }
 };
+
+window.addEventListener('scroll', function(scrolling) {
+    scrolling.preventDefault();
+    scrolling.stopPropagation();
+
+})
 
 frenchLang.addEventListener('click', function(event) {
     event.preventDefault();

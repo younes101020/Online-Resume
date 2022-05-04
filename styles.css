@@ -164,6 +164,41 @@ a .logo_name {
   background: rgba(0, 0, 0, .5);
 }
 
+#switchtocv {
+  display: none;
+}
+
+.appearcv {
+  font-family: "Oswald", sans-serif;
+  position: fixed;
+  font-size: .9rem;
+  padding: .1rem .5rem;
+  z-index: 1000;
+  left: 0;
+  top: 19%;
+  background: rgba(0, 102, 255, .5);
+  border-radius: 0 2rem 2rem 0rem;
+}
+
+.appearcv a {
+  color: #ffff;
+  text-decoration: none;
+  animation-duration: 3s;
+  animation-name: leftright;
+}
+
+@keyframes leftright {
+  0% {
+    opacity: .1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .usa {
   width: 2rem;
 }
