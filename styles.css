@@ -477,6 +477,138 @@ a .logo_name {
     background-color: #fff;
     clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
   }
+
+  .card3 {
+    position: relative;
+    color: #ffffff;
+    background-image: url(img/shifumi.PNG);
+    background-position: bottom;
+    padding: 10rem 0 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .card3::before {
+    font-family: FontAwesome;
+    content: "\f13b";
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #0f0f10;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+  
+  .card3::after {
+    font-family: FontAwesome;
+    content: '\f38b';
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    color: #0f0f10;
+    background-color: #fff;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+
+  #son::after {
+    font-family: FontAwesome;
+    content: '\f3d3';
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    color: #0f0f10;
+    background-color: #fff;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+
+  .card4 {
+    position: relative;
+    color: #ffffff;
+    background-image: url(img/showlist.PNG);
+    background-position: bottom;
+    padding: 10rem 0 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .card4::before {
+    font-family: FontAwesome;
+    content: "\f13b";
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #0f0f10;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+  
+  .card4::after {
+    font-family: FontAwesome;
+    content: '\f38b';
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    color: #0f0f10;
+    background-color: #fff;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+
+  #svn::after {
+    font-family: FontAwesome;
+    content: '\f3d3';
+    font-size: 1.3rem;
+    font-style: initial;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    color: #0f0f10;
+    background-color: #fff;
+    clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
+  }
+
+  .card-content-red {
+    --padding: 2.5rem;
+    padding: var(--padding);
+    background: url(svg/wave-red.svg);
+    background-position: bottom;
+    background-position-x: inherit;
+    background-size: inherit;
+    font-family: "Oswald", sans-serif;
+  }
   
   .card2 {
     position: relative;
@@ -539,6 +671,16 @@ a .logo_name {
     background-color: #fff;
     clip-path: polygon(0px 0px, 0px 0px, 100% 0px, 100% 10%, 100% 85%, 50% 100%, 50% 100%, 0% 85%, 0% 10%)
   }
+
+  .card-content-black {
+    --padding: 2.5rem;
+    padding: var(--padding);
+    background: url(svg/wave-black.svg);
+    background-position: bottom;
+    background-position-x: inherit;
+    background-size: inherit;
+    font-family: "Oswald", sans-serif;
+  }
   
   .card-content-purple {
     --padding: 2.5rem;
@@ -590,11 +732,6 @@ a .logo_name {
     padding: 0.5em 1.25em;
     font-weight: 900;
     border-radius: 0.25em;
-  }
-  
-  .button:hover,
-  .button:focus {
-    opacity: .5;
   }
 
   .modal-dialog {
