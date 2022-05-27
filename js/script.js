@@ -21,6 +21,8 @@ const certBadge = document.getElementsByClassName('certbadge')
 const autoBadge = document.getElementsByClassName('autobadge')
 const titleBadge = document.getElementsByClassName('titlebadge')
 const lidPresent = document.getElementById('lidpresent')
+const showPresent = document.getElementById('showpresent')
+const shifPresent = document.getElementById('shifpresent')
 const lmjPresent = document.getElementById('lmjpresent')
 const viewProject = document.getElementsByClassName('viewbtn')
 const nameLabel = document.getElementById('namelabel')
@@ -61,6 +63,8 @@ const language = {
         allAuto: "self-taught",
         lastBadge: "professional degree",
         firstBox: "Application who allows the connection<br> between web developers apprentice<br> to create mutual aid.",
+        showBox: "With that project I could<br> learn how to manipulate JSON data.",
+        shifBox: "You can play shifumi while<br> keeping an eye on your win ratio.",
         twoBox: "User interface of an online store,<br> you can add, remove, delete and save your cart.",
         viewBtn: "Overview",
         nameLbl: "Name",
@@ -88,6 +92,8 @@ const language = {
         allAuto: "autodidacte",
         lastBadge: "titre professionnel",
         firstBox: "Application qui met en relation<br> des apprentis développeurs web<br> pour créer de l'entraide",
+        shifBox: "Vous pouvez jouer au Shifumi<br> Tout en gardant un oeil sur votre ratio.",
+        showBox: "Grace à ce projet j'ai pu<br> apprendre à manipuler des données JSON.",
         twoBox: "Vous pouvez ajouter, enlever,<br> supprimer et sauvegarder votre panier.",
         viewBtn: "Aperçu",
         nameLbl: "Nom",
@@ -134,6 +140,8 @@ frenchLang.addEventListener('click', function(event) {
         titleBadge[i].textContent = language.fr.lastBadge;
     }
     lidPresent.innerHTML = language.fr.firstBox;
+    showPresent.innerHTML = language.fr.showBox;
+    shifPresent.innerHTML = language.fr.shifBox;
     lmjPresent.innerHTML = language.fr.twoBox;
     for(let i = 0; i < viewProject.length; i++) {
         viewProject[i].textContent = language.fr.viewBtn;
@@ -177,6 +185,8 @@ engLang.addEventListener('click', function(event) {
         titleBadge[i].textContent = language.en.lastBadge;
     }
     lidPresent.innerHTML = language.en.firstBox;
+    showPresent.innerHTML = language.en.showBox;
+    shifPresent.innerHTML = language.en.shifBox;
     lmjPresent.innerHTML = language.en.twoBox;
     for(let i = 0; i < viewProject.length; i++) {
         viewProject[i].textContent = language.en.viewBtn;
