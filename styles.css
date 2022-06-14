@@ -127,6 +127,14 @@ nav {
   }
 }
 
+.title-exp {
+  font-size: 1rem !important;
+}
+
+.p-exp {
+  font-size: .9rem !important;
+}
+
 .item {
   list-style-type: none;
 }
@@ -239,7 +247,8 @@ a .logo_name {
   }
   .legend #intro-p {
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    width: 110%;
     color: white;
   }
   .legend #job {
@@ -249,7 +258,7 @@ a .logo_name {
     color: #ff3366;
   }
   .legend .presentation {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
   }
   .exp-container {
@@ -422,7 +431,7 @@ a .logo_name {
     font-style: initial;
     background-image: url(img/lmj.PNG);
     background-position-y: bottom;
-    padding: 11.5rem 0 0;
+    padding: 15rem 0 0 0;
     border-radius: 0.5rem;
     overflow: hidden;
   }
@@ -434,7 +443,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -451,7 +460,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -468,7 +477,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -483,7 +492,7 @@ a .logo_name {
     color: #ffffff;
     background-image: url(img/shifumi.PNG);
     background-position: bottom;
-    padding: 10rem 0 0;
+    padding: 15rem 0 0 0;
     border-radius: 0.5rem;
     overflow: hidden;
   }
@@ -495,7 +504,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -512,7 +521,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -529,7 +538,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -544,7 +553,7 @@ a .logo_name {
     color: #ffffff;
     background-image: url(img/showlist.PNG);
     background-position: bottom;
-    padding: 10rem 0 0;
+    padding: 15rem 0 0 0;
     border-radius: 0.5rem;
     overflow: hidden;
   }
@@ -556,7 +565,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -573,7 +582,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -590,7 +599,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -603,7 +612,7 @@ a .logo_name {
   .card-content-red {
     --padding: 2.5rem;
     padding: var(--padding);
-    background: url(svg/wave-red.svg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));;
     background-position: bottom;
     background-position-x: inherit;
     background-size: inherit;
@@ -616,7 +625,7 @@ a .logo_name {
     background-image: url(img/lid.PNG);
     background-size: cover;
     background-position: bottom;
-    padding: 10rem 0 0;
+    padding: 15rem 0 0 0;
     border-radius: 0.5rem;
     overflow: hidden;
   }
@@ -628,8 +637,8 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
     right: 10px;
+    bottom: 12.8rem;
     width: 25px;
     height: 30px;
     text-align: center;
@@ -645,7 +654,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -662,7 +671,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    top: 0;
+    bottom: 12.8rem;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -675,7 +684,7 @@ a .logo_name {
   .card-content-black {
     --padding: 2.5rem;
     padding: var(--padding);
-    background: url(svg/wave-black.svg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
     background-position: bottom;
     background-position-x: inherit;
     background-size: inherit;
@@ -685,7 +694,7 @@ a .logo_name {
   .card-content-purple {
     --padding: 2.5rem;
     padding: var(--padding);
-    background: url(svg/wave-purple.svg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
     background-position: bottom;
     background-position-x: inherit;
     background-size: inherit;
@@ -695,7 +704,7 @@ a .logo_name {
   .card-content-green {
     --padding: 2.5rem;
     padding: var(--padding);
-    background: url(svg/wave-green.svg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8));
     background-position: bottom;
     background-position-x: left;
     background-size: inherit;
@@ -721,6 +730,7 @@ a .logo_name {
   .card-bodys {
     color: rgb(255, 255, 255 / 0.85);
     padding: 0;
+    font-size: 1.1rem;
   }
   
   .button {
