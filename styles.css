@@ -222,6 +222,30 @@ a .logo_name {
   opacity: .5;
 }
 
+#actualproject {
+  position: fixed;
+  right: 1rem;
+  top: 4.5rem;
+  z-index: 5000;
+}
+
+.actualbtn {
+  border-radius: 100vw !important;
+  background-color: rgba(244, 11, 3, 0.9) !important;
+  color: #fff !important;
+  padding: .5rem !important;
+  font-weight: 300 !important;
+  font-size: 1.2rem !important;
+  box-shadow: rgb(0 0 0 / 30%) 10px 10px 17px 0px !important;
+}
+
+#statuspic {
+  width: 2.9rem;
+  background: #ad0e14;
+  margin-right: 0.5rem;
+  border-radius: 100vw;
+}
+
   .picture {
     border-radius: 50%;
     background-color: transparent;

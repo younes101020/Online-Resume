@@ -30,6 +30,7 @@ const mailLabel = document.getElementById('maillabel')
 const msgLabel = document.getElementById('message')
 const submitBtn = document.getElementById('submitButton')
 const stageBadge = document.getElementById('internship')
+const statut = document.getElementById('status')
 
 // Récupération de l'ID à afficher au scroll uniquement Cacher le boutton
 const showCv = document.getElementById('switchtocv')
@@ -71,7 +72,8 @@ const language = {
         mailLab: "Email address",
         msgLab: "Hello Younès, I would like to schedule an interview with you...",
         subMit: "Send",
-        stage: "internship"
+        stage: "internship",
+        statut: "<img src='img/profil_picture.png' id='statuspic' alt='Profil picture'>ongoing project"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -100,7 +102,8 @@ const language = {
         mailLab: "Adresse e-mail",
         msgLab: "Bonjour Younès, je souhaiterais organiser un entretien avec vous...",
         subMit: "Envoyer",
-        stage: "stage"
+        stage: "stage",
+        statut: "<img src='img/profil_picture.png' id='statuspic' alt='Photo de profil'>projet en cours"
     }
 };
 
@@ -118,6 +121,7 @@ frenchLang.addEventListener('click', function(event) {
         skillsLang[i].textContent = language.fr.twoNav;
     }
     projetLang.textContent = language.fr.thirdNav;
+    statut.innerHTML = language.fr.statut;
     verticalLine.textContent = language.fr.firstLine;
     hiPresent.textContent = language.fr.firstPresent;
     unText.textContent = language.fr.twoPresent;
@@ -163,6 +167,7 @@ engLang.addEventListener('click', function(event) {
         skillsLang[i].textContent = language.en.twoNav;
     }
     projetLang.textContent = language.en.thirdNav;
+    statut.innerHTML = language.en.statut;
     verticalLine.textContent = language.en.firstLine;
     hiPresent.textContent = language.en.firstPresent;
     unText.textContent = language.en.twoPresent;

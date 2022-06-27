@@ -44,6 +44,26 @@
                 </div>
               </div>
 
+              <!--Projet actuel-->
+
+                <div class="d-flex" id="actualproject">
+                  <a type="button" id="status" class="button actualbtn" data-bs-toggle="modal" data-bs-target="#exampleModalProject"><img src="img/profil_picture.png" id="statuspic" alt="Photo de profil / Profil picture">ongoing project</a>
+                </div>
+
+              <div class="modal fade" id="exampleModalProject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog d-flex flex-column align-items-center">
+                    <div class="w-100 modal-body">
+                          <video class="col-12" height="315" controls>
+                            <source src="img/project_in_progress.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                      <button type="button" class="button close-btn" data-bs-dismiss="modal"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                    </div>
+                </div>
+              </div>
+
               <!--Changement de langue-->
               <div class="d-flex flex-column p-1 switch-lang">
                     <a href="#en" id="en"><img class="usa m-1" src="svg/usa.svg" alt="lang-usa"></a>
@@ -57,7 +77,7 @@
                 <div class="h-100 row d-md-flex justify-content-md-between align-items-md-center">
                         <div class="d-none d-sm-none d-lg-block col-md-3">
                             <div class="picture" data-aos="flip-left">
-                                <img class="img-fluid" src="img/profil_picture.png" alt="Mon Avatar virtuel">
+                                <img class="img-fluid" src="img/profil_picture.png" alt="Photo de profil / Profil picture">
                             </div>
                         </div>
                         <div class="col-12 align-self-center col-lg-3">
