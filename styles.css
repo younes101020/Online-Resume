@@ -240,10 +240,10 @@ a .logo_name {
 }
 
 #statuspic {
-  width: 2.9rem;
   background: #ad0e14;
   margin-right: 0.5rem;
   border-radius: 100vw;
+  padding: 0.5rem;
 }
 
   .picture {
