@@ -95,7 +95,7 @@ const language = {
         stage: "internship",
         statut: "ongoing project",
         backother: "Back end & other",
-        certifiedby: "<span class='font-weight-light'>Certifié</span> par"
+        certifiedby: "<span class='font-weight-light'>Certified</span> by"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -127,7 +127,7 @@ const language = {
         stage: "stage",
         statut: "projet en cours",
         backother: "Back end & autre",
-        certifiedby: "<span class='font-weight-light'>Certified</span> by"
+        certifiedby: "<span class='font-weight-light'>Certifié</span> par"
     }
 };
 
