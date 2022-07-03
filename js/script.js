@@ -1,3 +1,17 @@
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+      },
+      speed: 2000,
+      grabCursor: true,
+      mousewheelControl: true,
+      keyboardControl: true,
+  });
+  
 // Récupération des liens pour écouter les events
 const frenchLang = document.getElementById('fr')
 const engLang = document.getElementById('en')
@@ -32,6 +46,8 @@ const submitBtn = document.getElementById('submitButton')
 const stageBadge = document.getElementById('internship')
 const statusTxt = document.querySelector('.status')
 const actualprojectBtn = document.getElementById('actualbtn')
+const certifiedBy = document.getElementById('font-italic')
+const backOther = document.getElementById('back')
 
 // Récupération de l'ID à afficher au scroll uniquement Cacher le boutton
 const showCv = document.getElementById('switchtocv')
@@ -77,7 +93,9 @@ const language = {
         msgLab: "Hello Younès, I would like to schedule an interview with you...",
         subMit: "Send",
         stage: "internship",
-        statut: "ongoing project"
+        statut: "ongoing project",
+        backother: "Back end & other",
+        certifiedby: "<span class='font-weight-light'>Certifié</span> par"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -107,7 +125,9 @@ const language = {
         msgLab: "Bonjour Younès, je souhaiterais organiser un entretien avec vous...",
         subMit: "Envoyer",
         stage: "stage",
-        statut: "projet en cours"
+        statut: "projet en cours",
+        backother: "Back end & autre",
+        certifiedby: "<span class='font-weight-light'>Certified</span> by"
     }
 };
 
@@ -156,6 +176,8 @@ frenchLang.addEventListener('click', function(event) {
     }
     nameLabel.textContent = language.fr.nameLbl;
     mailLabel.textContent = language.fr.mailLab;
+    backOther.innerHTML = language.fr.backother;
+    certifiedBy.innerHTML = language.fr.certifiedby;
     msgLabel.placeholder = language.fr.msgLab;
     submitBtn.textContent = language.fr.subMit;
     stageBadge.textContent = language.fr.stage;
@@ -202,6 +224,8 @@ engLang.addEventListener('click', function(event) {
     }
     nameLabel.textContent = language.en.nameLbl;
     mailLabel.textContent = language.en.mailLab;
+    backOther.innerHTML = language.en.backother;
+    certifiedBy.innerHTML = language.en.certifiedby;
     msgLabel.placeholder = language.en.msgLab;
     submitBtn.textContent = language.en.subMit;
     stageBadge.textContent = language.en.stage;

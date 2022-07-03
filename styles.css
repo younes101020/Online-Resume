@@ -458,6 +458,76 @@ a .logo_name {
   .padding-center {
     padding: 10rem 0 0 0;
   }
+  hr {
+    margin: 1rem -1rem !important;
+  }
+  .card {
+    width: 25rem;
+    border-radius: 3rem !important;
+    box-shadow: -15px 10px 0px rgba(255, 255, 255, .9);
+    color: #0066ff;
+  }
+  .card-title {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .logo_skills {
+    font-size: 3.4rem;
+    color: #0066ff;
+    padding: 1rem 1.5rem;
+    border-radius: 100vw;
+    border: 1px solid #0066ff;
+  }
+  .logo_large_skills {
+    font-size: 3.5rem;
+    color: #0066ff;
+    padding: 1rem 1rem;
+    border-radius: 100vw;
+    border: 1px solid #0066ff;
+  }
+  .logo_extra_large_skills {
+    font-size: 3.5rem;
+    color: #0066ff;
+    padding: 1rem .7rem;
+    border-radius: 100vw;
+    border: 1px solid #0066ff;
+  }
+  .swiper {
+    z-index: -1000 !important;
+    width: 600px;
+    height: 300px;
+    
+  }
+  .font-weight-light {
+    font-weight: 300;
+  }
+  #font-italic {
+    font-style: italic !important;
+  }
+  .certifcomp {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.5rem;
+  }
+  .lamanu {
+    background-image: url(https://www.nwx.fr/wp-content/uploads/2022/02/La-Manu-300x300.png);
+  }
+  .freecodecamp {
+    background-image: url(https://archive.org/download/github.com-freeCodeCamp-freeCodeCamp_-_2019-11-23_00-34-37/cover.jpg);
+  }
+  .openclass {
+    background-image: url(https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png);
+  }
+  .mimo {
+    background-image: url(https://assets.materialup.com/uploads/c281567c-d583-49e5-8a95-366737783d19/teaser.png);
+  }
+  .codecademy {
+    background-image: url(https://cdn.shopify.com/s/files/1/0090/2932/0804/products/mockup-8ba89ac4_300x300.jpg);
+  }
+  .udemy {
+    background-image: url(https://ezbrt4adg6k.exactdn.com/wp-content/uploads/2021/04/unnamed.png?strip=all&lossy=1&fit=300%2C300&ssl=1);
+  }
   .cards {
     position: relative;
     color: #ffffff;
