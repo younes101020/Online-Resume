@@ -30,7 +30,8 @@ const mailLabel = document.getElementById('maillabel')
 const msgLabel = document.getElementById('message')
 const submitBtn = document.getElementById('submitButton')
 const stageBadge = document.getElementById('internship')
-const statut = document.getElementById('status')
+const statusTxt = document.querySelector('.status')
+const actualprojectBtn = document.getElementById('actualbtn')
 
 // Récupération de l'ID à afficher au scroll uniquement Cacher le boutton
 const showCv = document.getElementById('switchtocv')
@@ -43,6 +44,9 @@ window.addEventListener('scroll', function(e) {
     }
 })
 
+// Intialisation d'une variable qui vas nous permettre de mettre à jour le text du toggle de projet en cours (savoir quel langue est actif).
+// le false signifie que la langue est en anglais
+let langChanging = false;
 
 const language = {
     en: {
@@ -116,12 +120,12 @@ window.addEventListener('scroll', function(scrolling) {
 frenchLang.addEventListener('click', function(event) {
     event.preventDefault();
     event.stopPropagation();
+    langChanging = true;
     quiLang.textContent = language.fr.firstNav;
     for(let i = 0; i < skillsLang.length; i++) {
         skillsLang[i].textContent = language.fr.twoNav;
     }
     projetLang.textContent = language.fr.thirdNav;
-    statut.textContent = language.fr.statut;
     verticalLine.textContent = language.fr.firstLine;
     hiPresent.textContent = language.fr.firstPresent;
     unText.textContent = language.fr.twoPresent;
@@ -162,12 +166,12 @@ frenchLang.addEventListener('click', function(event) {
 engLang.addEventListener('click', function(event) {
     event.preventDefault();
     event.stopPropagation();
+    langChanging = false;
     quiLang.textContent = language.en.firstNav;
     for(let i = 0; i < skillsLang.length; i++) {
         skillsLang[i].textContent = language.en.twoNav;
     }
     projetLang.textContent = language.en.thirdNav;
-    statut.textContent = language.en.statut;
     verticalLine.textContent = language.en.firstLine;
     hiPresent.textContent = language.en.firstPresent;
     unText.textContent = language.en.twoPresent;
@@ -202,6 +206,20 @@ engLang.addEventListener('click', function(event) {
     submitBtn.textContent = language.en.subMit;
     stageBadge.textContent = language.en.stage;
     opcForma.textContent = language.en.firstopcexpTitle;
+});
+
+// Initialisation d'une variable qui vas nous permettre de savoir si le toggle est actif ou non, si oui
+// alors alors cette variable prendras la valeur inverse de celle qu'elle avais lorsque le toggle n'était pas actif
+let isVisible = false;
+
+actualprojectBtn.addEventListener('click', () => {
+    statusTxt.classList.toggle('is-visible')
+    isVisible = !isVisible;
+    if(langChanging && isVisible) {
+        statusTxt.textContent = language.fr.statut;
+    } else {
+        statusTxt.textContent = language.en.statut;
+    }
 });
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]

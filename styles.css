@@ -229,19 +229,28 @@ a .logo_name {
   z-index: 5000;
 }
 
-.actualbtn {
+#actualbtn {
   border-radius: 100vw !important;
   background-color: rgba(244, 11, 3, 0.9) !important;
   color: #fff !important;
   padding: .5rem !important;
+  display: flex;
   font-weight: 300 !important;
   font-size: 1.2rem !important;
   box-shadow: rgb(0 0 0 / 30%) 10px 10px 17px 0px !important;
 }
 
+.status {
+  display: none;
+}
+
+.status.is-visible {
+  display: block;
+  padding: 0 0 0 .5rem;
+}
+
 #statuspic {
   background: #ad0e14;
-  margin-right: 0.5rem;
   border-radius: 100vw;
   padding: 0.5rem;
 }
