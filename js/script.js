@@ -1,3 +1,4 @@
+// Utilisation de la librairie Swipper pour le carroussel
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -17,6 +18,7 @@ const frenchLang = document.getElementById('fr')
 const engLang = document.getElementById('en')
 
 // Récupération des div à traduire
+const downloadCv = document.getElementById('download')
 const quiLang = document.getElementById('quilang')
 const skillsLang = document.getElementsByClassName('skillslang')
 const projetLang = document.getElementById('projetlang')
@@ -95,7 +97,8 @@ const language = {
         stage: "internship",
         statut: "ongoing project",
         backother: "Back end & other",
-        certifiedby: "<span class='font-weight-light'>Certified</span> by"
+        certifiedby: "<span class='font-weight-light'>Certified</span> by",
+        download: "Download my resume"
     },
     fr: {
         firstNav: "Qui suis-je",
@@ -127,7 +130,8 @@ const language = {
         stage: "stage",
         statut: "projet en cours",
         backother: "Back end & autre",
-        certifiedby: "<span class='font-weight-light'>Certifié</span> par"
+        certifiedby: "<span class='font-weight-light'>Certifié</span> par",
+        download: "Télécharger mon CV"
     }
 };
 
@@ -148,6 +152,7 @@ frenchLang.addEventListener('click', function(event) {
     projetLang.textContent = language.fr.thirdNav;
     verticalLine.textContent = language.fr.firstLine;
     hiPresent.textContent = language.fr.firstPresent;
+    downloadCv.textContent = language.fr.download;
     unText.textContent = language.fr.twoPresent;
     jobText.textContent = language.fr.thirdPresent;
     deText.textContent = language.fr.fourPresent;
@@ -196,6 +201,7 @@ engLang.addEventListener('click', function(event) {
     projetLang.textContent = language.en.thirdNav;
     verticalLine.textContent = language.en.firstLine;
     hiPresent.textContent = language.en.firstPresent;
+    downloadCv.textContent = language.en.download;
     unText.textContent = language.en.twoPresent;
     jobText.textContent = language.en.thirdPresent;
     deText.textContent = language.en.fourPresent;
