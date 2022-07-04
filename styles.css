@@ -546,7 +546,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -563,7 +563,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -580,7 +580,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -607,7 +607,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -624,7 +624,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -641,7 +641,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -668,7 +668,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 10px;
     width: 25px;
     height: 30px;
@@ -685,7 +685,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -702,7 +702,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 90px;
     width: 25px;
     height: 30px;
@@ -741,7 +741,7 @@ a .logo_name {
     font-weight: 100;
     position: absolute;
     right: 10px;
-    bottom: 12.8rem;
+    top: 0;
     width: 25px;
     height: 30px;
     text-align: center;
@@ -757,7 +757,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 50px;
     width: 25px;
     height: 30px;
@@ -774,7 +774,7 @@ a .logo_name {
     font-style: initial;
     font-weight: 100;
     position: absolute;
-    bottom: 12.8rem;
+    top: 0;
     right: 90px;
     width: 25px;
     height: 30px;
