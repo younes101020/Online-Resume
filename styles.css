@@ -13,7 +13,6 @@
 }
 
 body {
-    overflow-x: hidden !important;
     height: 100vh;
     z-index: 1;
     background: url(svg/svg.svg);
@@ -127,6 +126,38 @@ nav {
   }
 }
 
+.displayCv {
+  display: none;
+}
+
+.unloadcontent {
+  position: fixed;
+  z-index: 9000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#loading {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #002233;
+  border-radius: 50%;
+  border-top-color: #0066FF;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
 .title-exp {
   font-size: 1rem !important;
 }
@@ -164,6 +195,10 @@ a .logo_name {
   text-decoration: none;
 }
 
+.displayon {
+  display: block;
+}
+
 .switch-lang {
   position: fixed;
   z-index: 1000;
@@ -172,7 +207,7 @@ a .logo_name {
   background: rgba(0, 0, 0, .5);
 }
 
-#switchtocv {
+.displaynone {
   display: none;
 }
 
